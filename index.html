@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triopolis</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+
+    nav {
+        background-color: #333;
+        padding: 10px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    h1, h2 {
+        color: #333;
+    }
+
+    p {
+        color: #555;
+        line-height: 1.6;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="home">Bienvenue à Triopolis</h1>
+    <p>Triopolis est une ville dynamique et innovante, offrant une qualité de vie exceptionnelle à ses habitants. Avec ses infrastructures modernes, ses espaces verts et sa communauté accueillante, Triopolis est l'endroit idéal pour vivre, travailler et se divertir.</p>
+    <p>Découvrez les nombreuses attractions de Triopolis, des musées fascinants aux parcs magnifiques en passant par une scène culturelle vibrante. Que vous soyez un résident ou un visiteur, Triopolis a quelque chose à offrir à tout le monde.</p>
+
+    <h2 id="about">À propos de Triopolis</h2>
+    <p>Triopolis est une ville moderne et dynamique, située au cœur d'une région riche en histoire et en culture. Elle combine le meilleur de l'urbanisme contemporain avec un environnement naturel préservé, offrant ainsi un cadre de vie exceptionnel.</p>
+    <p>La ville est connue pour son engagement envers la durabilité et l'innovation, avec de nombreux projets visant à améliorer la qualité de vie de ses habitants tout en respectant l'environnement. Triopolis est également un centre culturel important, avec une scène artistique florissante et de nombreux événements tout au long de l'année.</p>
+
+    <h2 id="transports">Transports</h2>
+    <p>Triopolis possède 3 lignes de métro :</p>
+    <ul>
+        <li>Ligne 1</li>
+        <li>Ligne 2</li>
+        <li>Ligne 3</li>
+    </ul>
+
+    <img src="./Plan_metro_SMP.png" alt="Vue de Triopolis" style="width:100%; height:auto;">
+
+    <p>La ville est également bien desservie par un réseau de bus efficace, ainsi que par des pistes cyclables pour les amateurs de vélo. De plus, Triopolis dispose d'une gare centrale qui facilite les déplacements vers les villes voisines et au-delà.</p>
+    
+    <footer>
+        <p>&copy; 2026 Triopolis. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        // Responsive navigation menu
+        const nav = document.querySelector('nav');
+        const toggleButton = document.createElement('button');
+        toggleButton.textContent = 'Menu';
+        toggleButton.style.display = 'none';
+        nav.insertBefore(toggleButton, nav.firstChild);
+
+    </script>
+</body>
+</html>
